@@ -1,0 +1,57 @@
+.employee-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #bebebe;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #dcdcdc;
+}
+
+.employee-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bebebe;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 600px;
+  background-color: #e1e1e183;
+  gap: 20px;
+}
+
+.employee-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.employee-info h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.employee-info p {
+  margin: 5px 0;
+  color: #515151;
+}
+
+.employee-info strong {
+  color: #000000;
+}

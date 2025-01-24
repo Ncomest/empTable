@@ -1,0 +1,16 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+
+.employee-search-bar_input {
+  width: 400px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+  outline: none;
+}
